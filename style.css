@@ -1,0 +1,268 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* .carousel_div{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+}
+
+#carouselExample{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+} */
+
+.section_2 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.sec2_1 {
+  height: 450px;
+  width: 350px;
+  background-color: lightblue;
+}
+.sec2_1_text {
+  padding: 40px 0px 20px 40px;
+}
+.sec2_1_text > h1 {
+  width: 40px;
+}
+
+.discount_button {
+  border-radius: 50%;
+  height: 90px;
+  width: 100px;
+  margin-left: 80px;
+  font-size: 25px;
+  background-color: #2756e2;
+}
+
+.sec2_2 {
+  height: 400px;
+  width: 500px;
+  row-gap: 30px;
+
+}
+.sec2_2_1 {
+    padding-left: 20px;
+    padding-top: 20px;
+  margin-top: 20px;
+  height: 210px;
+  width: 480px;
+  margin-bottom: 25px;
+  background-color: rgb(114, 169, 184);
+}
+
+.sec2_1_2 {
+    padding-left: 20px;
+    padding-top: 20px;
+  margin-top: 20px;
+  height: 210px;
+  width: 480px;
+  background-color: rgb(108, 169, 185);
+}
+
+.sec2_3 {
+    padding-left: 20px;
+    padding-top: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  height: 450px;
+  width: 350px;
+  background-color: lightblue;
+}
+.section_3 {
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+
+}
+
+.sec_3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+ 
+}
+
+.sec_3_1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+
+.foot {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 100px 60px 85px;
+}
+
+.foot_list {
+    font-size: 20px;
+    gap: 40px;
+}
+
+.foot_list>ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.foot_list>ul>li {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    color: gray;
+}
+
+.foot_text {
+    width: 50%;
+    padding-right: 270px;
+}
+
+.foot_text>p {
+    color: gray;
+}
+
+.foot_text>h1 {
+    color: #2756e2;
+}
+
+.last_sec {
+    display: flex;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.last_sec_data {
+    font-size: 20px;
+}
+
+.last_sec_text {
+    display: flex;
+    gap: 50px;
+    padding-left: 560px;
+}
+
+.line {
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+@media screen and (max-width:1180px) {
+    .foot {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .foot_text {
+        width: 50%;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .foot {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .foot_text {
+        width: 50%;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .last_sec {
+        display: flex;
+        padding-left: 80px;
+        font-size: 20px;
+
+    }
+
+    .last_sec_data {
+        font-size: 20px;
+    }
+
+    .last_sec_text {
+        display: flex;
+        gap: 40px;
+        padding-left: 400px;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    .last_sec {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        padding-left: 50px;
+        font-size: 20px;
+    }
+
+    .last_sec_data {
+        font-size: 20px;
+    }
+
+    .last_sec_text {
+        display: flex;
+        gap: 40px;
+        padding-left: 350px;
+    }
+
+}
+
+@media screen and (max-width:930px) {
+    .last_sec {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    .last_sec_data {
+        font-size: 20px;
+    }
+
+    .last_sec_text {
+        display: flex;
+        gap: 40px;
+        padding-left: 150px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .last_sec {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    .last_sec_data {
+        font-size: 20px;
+    }
+
+    .last_sec_text {
+        display: flex;
+        gap: 40px;
+        padding-left: 80px;
+    }
+
+}
